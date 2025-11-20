@@ -1,2 +1,28 @@
-# manqoba-fitness-site
-Fitness website for personal training in Durban. Frontend code using HTML, CSS, and JavaScript.
+# FitCoach Durban — Local Preview
+
+This folder contains a simple static landing page for FitCoach Durban.
+
+Files:
+- `gym_website.html` — main HTML file
+- `styles.css` — stylesheet (moved from inline)
+- `scripts.js` — JavaScript (moved from inline)
+
+Quick preview (PowerShell):
+
+1. Open PowerShell and change to this folder:
+
+```powershell
+Set-Location 'C:\Users\User\Desktop\Manqoba\gym'
+```
+
+2. If you have Python 3 installed, start a simple HTTP server and open the page:
+
+```powershell
+python -m http.server 8000; Start-Process 'http://localhost:8000/gym_website.html'
+```
+
+3. If you don't have Python, you can open `gym_website.html` directly in your browser by double-clicking the file.
+
+Notes:
+- I removed remaining inline `style` attributes and added matching selectors in `styles.css`.
+- If you want, I can run a basic linter, add a `package.json` for npm-based tooling, or add a small PowerShell script to automate the preview.
