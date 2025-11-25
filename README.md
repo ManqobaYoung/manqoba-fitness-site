@@ -23,6 +23,3 @@ python -m http.server 8000; Start-Process 'http://localhost:8000/gym_website.htm
 
 3. If you don't have Python, you can open `gym_website.html` directly in your browser by double-clicking the file.
 
-Notes:
-- I removed remaining inline `style` attributes and added matching selectors in `styles.css`.
-- If you want, I can run a basic linter, add a `package.json` for npm-based tooling, or add a small PowerShell script to automate the preview.
